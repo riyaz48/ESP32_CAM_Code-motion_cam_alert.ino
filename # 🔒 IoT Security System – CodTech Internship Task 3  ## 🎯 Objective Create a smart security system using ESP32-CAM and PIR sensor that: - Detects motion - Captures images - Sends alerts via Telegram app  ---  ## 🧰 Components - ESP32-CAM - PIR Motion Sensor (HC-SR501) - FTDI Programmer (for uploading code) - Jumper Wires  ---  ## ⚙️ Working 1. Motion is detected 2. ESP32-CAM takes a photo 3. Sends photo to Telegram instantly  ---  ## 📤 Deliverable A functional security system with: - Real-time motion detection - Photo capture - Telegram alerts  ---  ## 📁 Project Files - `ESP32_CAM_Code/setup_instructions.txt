@@ -1,0 +1,6 @@
+1. Connect PIR sensor OUT to GPIO13 on ESP32-CAM
+2. Use FTDI to upload code (IO0 to GND for boot mode)
+3. Replace Wi-Fi & Telegram bot token in code
+4. Upload using Arduino IDE
+5. Monitor Serial Monitor for motion logs
+6. When motion is detected, you’ll get a photo in Telegram
